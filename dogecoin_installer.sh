@@ -90,7 +90,7 @@ git clone https://github.com/dogecoin/dogecoin.git
 # Build
 cd dogecoin 
 ./autogen.sh 
-if [ $upnpc_compile -eq 1 ]; then 
+if [ $upnp_compile -eq 1 ]; then 
     ./configure --without-miniupnpc  
 else
     ./configure 
